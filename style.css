@@ -60,3 +60,19 @@ main{
     visibility: visible !important;
     opacity: 1;
 }
+
+.lightbox-content{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.lightbox-content button{
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 0 1rem;
+    border-radius: 25%;
+}
